@@ -1,0 +1,523 @@
+@import url(https://fonts.google.com/specimen/Raleway);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.above {
+    width: 1600px;
+    padding: 50px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.con__img {
+    width: 150px;
+}
+
+.head2 {
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.others {
+    color: hsl(224, 93%, 58%);
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.info2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+    width: 100%;
+    background-image: url(./images/bg-curve-desktop.svg);
+    background-size: 100rem 30rem;
+    background-repeat: no-repeat;
+}
+
+.topic {
+    width: 37%;
+}
+
+.topic2 {
+    width: 45%;
+}
+
+.mess {
+    font-size: 45px;
+    font-weight: bolder;
+    color: hsl(243, 87%, 12%);
+}
+
+.text {
+    font-size: 20px;
+    margin-top: 15px;
+    color: hsl(243, 87%, 12%);
+}
+
+.text2 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: hsl(243, 87%, 12%);
+    width: 85%;
+}
+
+.pic {
+    width: 550px;
+}
+
+.box {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.form-field {
+    width: 510px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#rectify {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+small {
+    text-align: left;
+    color: hsl(0, 100%, 74%);
+    margin-top: 5px;
+}
+
+.details {
+    height: 30px;
+    width: 320px;
+    padding-left: 10px;
+    border: 1px solid hsl(246, 25%, 77%);
+    border-radius: 5px;
+}
+
+.details:focus {
+    outline: 1px solid hsl(248, 32%, 49%);
+}
+
+.detail {
+    height: 30px;
+    width: 320px;
+    border: 1px solid #fff;
+    padding-left: 10px;
+}
+
+.details::placeholder {
+    color: hsl(246, 25%, 77%)
+}
+
+.detail:focus {
+    outline: 1px solid hsl(248, 32%, 49%);
+}
+
+.success {
+    border: 1px solid hsl(246, 25%, 77%);
+}
+
+.error {
+    border: 1px solid hsl(0, 100%, 74%);
+}
+
+
+.click {
+    height: 30px;
+    width: 180px;
+    color: #fff;
+    background-color: hsl(224, 93%, 58%);
+    border-radius: 5px;
+    border: 1px solid hsl(224, 93%, 58%);
+    cursor: pointer;
+}
+
+.click:hover {
+    background-color: hsl(224, 93%, 68%);
+    border: 1px solid hsl(224, 93%, 68%);
+}
+
+.click2 {
+    height: 30px;
+    width: 180px;
+    color: #fff;
+    background-color: hsl(224, 93%, 58%);
+    border-radius: 5px;
+    border: 1px solid hsl(224, 93%, 58%);
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.click2:hover {
+    background-color: hsl(224, 93%, 68%);
+    border: 1px solid hsl(224, 93%, 68%);
+}
+
+.link {
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+}
+
+.link2 {
+    color: hsl(170, 75%, 53%);
+}
+
+.line {
+    height: 1px;
+    background-color: aqua;
+    width: 150px;
+
+}
+
+.arrow {
+    margin-left: 5px;
+}
+
+.comment {
+    width: 55%;
+    height: 200px;
+    background-color: hsl(240, 75%, 98%);
+    box-shadow: 2px 2px 2px 2px rgb(230, 219, 219);
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+.com {
+    font-size: 18px;
+    color: hsl(223, 34%, 27%);
+}
+
+.pics {
+    border-radius: 100px;
+    width: 50px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    width: 220px;
+}
+
+.name {
+    font-weight: bold;
+    color: hsl(223, 34%, 27%);
+}
+
+.title {
+    color: hsl(223, 34%, 27%);
+}
+
+.below {
+    width: 1700px;
+    background-color: rgb(144, 126, 161);
+    height: 280px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.below1 {
+    width: 42%;
+}
+
+.sum {
+    font-size: 45px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.sum2 {
+    font-size: 25px;
+    margin-top: 15px;
+    color: #fff;
+}
+
+
+.below2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.final {
+    width: 1700px;
+    background-color: hsl(243, 87%, 12%);
+    height: 280px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.img2 {
+    align-self: flex-start;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 190px;
+}
+
+.card2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+    line-height: 35px;
+}
+
+.num {
+    color: #fff;
+}
+
+.last4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100px;
+}
+
+.line2 {
+    color: #fff;
+    line-height: 35px;
+}
+
+#touch {
+    cursor: pointer;
+}
+
+#touch:hover {
+    color: blueviolet;
+}
+
+.icon {
+    height: 26px;
+    width: 26px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon2 {
+    height: 26px;
+    width: 26px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        overflow: auto;
+        padding: 30px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .above {
+        width: 420px;
+        padding: 30px;
+    }
+
+    .con__img {
+        width: 100px;
+    }
+
+    .info {
+        flex-direction: column-reverse;
+    }
+
+    .info2 {
+        flex-direction: column-reverse;
+        background-image: url(./images/bg-curve-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 30rem 30rem;
+    }
+
+    .pic {
+        width: 100%;
+    }
+
+    .topic {
+        width: 100%;
+    }
+
+    .topic2 {
+        width: 100%;
+    }
+
+    .text2 {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .mess {
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+
+    .text {
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .box {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .form-field {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .detail {
+        width: 80%;
+    }
+    
+    .details {
+        width: 80%;
+
+    }
+
+    .click {
+        width: 80%;
+        margin-top: 15px;
+    }
+
+    .click2 {
+        width: 80%;
+        height: 35px;
+        margin-bottom: 0px;
+    }
+
+    .link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .line {
+        margin-left: 95px;
+    }
+
+    .comment {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .com {
+        font-size: 16px;
+    }
+
+    .below {
+        width: 420px;
+        padding: 30px;
+        flex-direction: column;
+    }
+
+    .below1 {
+        width: 100%;
+    }
+
+    .below2 {
+        width: 100%;
+    }
+
+    .sum {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .sum2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .final {
+        flex-direction: column;
+        width: 420px;
+        height: 550px;
+    }
+
+    .summary {
+        flex-direction: column;
+    }
+
+    .last {
+        margin-top: 30px;
+    }
+
+    .last2 {
+        margin-top: 30px;
+    }
+
+    .last3 {
+        margin-top: 30px;
+    }
+
+    .last4 {
+        align-self: center;
+    }
+}
